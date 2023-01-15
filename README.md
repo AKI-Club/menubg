@@ -27,6 +27,12 @@ where...
 - `BG_TYPE` is one of "`old`" or "`new`" (no quotes)
 - `OUT_DIR` is the optional output directory. The directory *must* already exist.
 
+#### List File Format Notes
+- Each entry in the list file should be on its own line.
+- Ideally, the file should have Unix line endings (`\n`).
+- Paths can be relative or absolute.
+- Paths should use `/` as the directory separator.
+
 ### PNG to Menu Background
 `menubg -p PNG_FILE -t BG_TYPE [-d OUT_DIR]`
 
